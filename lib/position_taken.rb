@@ -4,7 +4,6 @@ def position_taken?(board, index)
     false
   end
   if board[index] == "X" || board[index] == "O"
-    puts board[index] == "X" || board[index] == "O"
     true
   end
   false
